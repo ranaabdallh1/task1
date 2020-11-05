@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task12"
+    android:background="#FF5722">
+
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:id="@+id/reponzel"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginBottom="190dp"
+       android:src="@drawable/task12" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:id="@+id/reponzel_text"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:text="You look like a queen!!"
+       android:textColor="#FFFFFF"
+       android:textSize="32sp"
+       android:layout_marginBottom="50dp"
+       android:textStyle="bold"
+       android:paddingBottom="50dp"
+       android:layout_centerHorizontal="true"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:id="@+id/reponzel_text2"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:text="So Dont Act"
+       android:textColor="#FFFFFF"
+       android:textSize="32sp"
+       android:layout_marginBottom="50dp"
+       android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+       />
+</RelativeLayout>
